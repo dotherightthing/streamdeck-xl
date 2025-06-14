@@ -2,6 +2,22 @@
 
 Stream Deck XL profiles.
 
+## Submodules
+
+To add this repo as a submodule:
+
+```sh
+mkdir submodules
+
+cd submodules
+
+git submodule add https://github.com/dotherightthing/streamdeck-xl
+```
+
+To update submodules to latest versions:
+
+`git submodule update --remote`
+
 ## Tips
 
 ### macOS Shortcuts
