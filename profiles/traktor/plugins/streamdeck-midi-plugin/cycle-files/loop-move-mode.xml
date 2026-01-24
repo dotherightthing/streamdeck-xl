@@ -4,7 +4,7 @@
   <StepValues>
     <Step value="127" display="Loop Out" image="%documents%/control-traktor/streamdeck-xl/icons/button-creator/arrow.forward.to.line.png"/>
     <Step value="84" display="Loop In" image="%documents%/control-traktor/streamdeck-xl/icons/button-creator/arrow.backward.to.line.png"/>
-    <Step value="42" display="Loop" image="%documents%/control-traktor/streamdeck-xl/icons/button-creator/arrow.triangle.to.circlepath.png"/>
+    <Step value="42" display="Loop" image="%documents%/control-traktor/streamdeck-xl/icons/button-creator/arrow.triangle.2.circlepath.png"/>
     <Step value="0" display="BeatJump" image="%documents%/control-traktor/streamdeck-xl/icons/button-creator/arrow.turn.up.right.png"/> 
   </StepValues>
 </MidiSteps>
