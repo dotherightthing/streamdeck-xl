@@ -70,9 +70,7 @@ Recording",5,Toggle between recording all audio output and not recording,-,10,13
 A - Decks/Rec - Row 3 Col 6,LIVE CLEAR CLIP,-,6,Remove all clip data - this is much faster than context switching to change Push views to create a new clip and then nudging to get it back in time,-,10,67,Push,"127 (On), 0 (Off)",IAC Drive StreamDeck2Daw,IAC Driver Daw2StreamDeck,Calls ClyphX Pro X-Control,src/streamdeck-xl/icons/button-creator/live-clear-clip.png,"src/clyphx-pro/X-Controls.txt,
 src/traktor/CT6 - Streamdeck XL.tsi"
 "A - Decks/Rec - Row 3 Col 7",[DIAL],Deck Pan,6?,Display only - highights non-centered pan knob when using Stream Deck rather than S8.,-,10,72,V-Pot,"0-127",Traktor Virtual Input,Traktor Virtual Output,,,src/traktor/CT6 - Streamdeck XL.tsi
-"A - Decks/Rec - Row 4 Col 1,
-C - Browser - Row 4 Col 1,
-D - Settings - Row 4 Col 1",Right Arrow,"Shift",5,"Provide SHIFTed functions, these are denoted with underlined text",-,10,4,Hold,"127 (On), 0 (Off)",Traktor Virtual Input,Traktor Virtual Output,Sets Traktor's 'Modifier 1' (for CT6 - Stream Deck XL) to '1',UNKNOWN - TODO,"src/traktor/CT6 - Streamdeck XL.tsi"
+"ACD - Row 4 Col 1",Right Arrow,"Shift",5,"Provide SHIFTed functions, these are denoted with underlined text",-,10,4,Hold,"127 (On), 0 (Off)",Traktor Virtual Input,Traktor Virtual Output,Sets Traktor's 'Modifier 1' (for CT6 - Stream Deck XL) to '1',UNKNOWN - TODO,"src/traktor/CT6 - Streamdeck XL.tsi"
 A - Decks/Rec - Row 4 Col 2,PUSH PAD MODE,"Off,
 Hotcues,
 Slices",6,"Toggle on output for slice and hotcue highlighting, to highlight the current playing slice on Push's 16 pad grid",-,10,60,Cycle,Various (XML Cycle file),Traktor Virtual Input,Traktor Virtual Output,"Sets Traktor's 'Modifier 1' (for CT6 - Deck A, CT6 - Deck B)",src/streamdeck-xl/icons/button-creator/push-pad-mode.png,"src/streamdeck-xl/plugins/streamdeck-midi-plugin/cycle-files/leds-to-push.xml,
@@ -178,7 +176,7 @@ C - Browser - Row 3 Col 2,Square with highlight in BL corner,Load C,5,Load selec
 C - Browser - Row 2 Col 2,Square with highlight in TL corner,Load A,5,Load selected track into Deck A,-,10,10,Push,"127 (On), 0 (Off)",Traktor Virtual Input,Traktor Virtual Output,Calls Traktor's 'Load Selected (Deck Common)' (Deck A),UNKNOWN - TODO,src/traktor/CT6 - Streamdeck XL.tsi
 C - Browser - Row 2 Col 3,Square with highlight in TR corner,Load B,5,Load selected track into Deck B,-,10,20,Push,"127 (On), 0 (Off)",Traktor Virtual Input,Traktor Virtual Output,Calls Traktor's 'Load Selected (Deck Common)' (Deck B),UNKNOWN - TODO,src/traktor/CT6 - Streamdeck XL.tsi
 C - Browser - Row 1 Col 2,Bulleted List,"-,
-Playlists
+Playlists,
 Samples,
 Track Collection",5,Select a browser folder,-,10,35,Cycle,"Various (XML Cycle file)",Traktor Virtual Input,Traktor Virtual Output,Sets/Displays Traktor's 'Selector',UNKNOWN - TODO,"src/streamdeck-xl/plugins/streamdeck-midi-plugin/cycle-files/favourites.xml,
 src/traktor/CT6 - Streamdeck XL.tsi"
