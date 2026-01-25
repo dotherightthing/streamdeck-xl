@@ -53,6 +53,9 @@ Active=1
 Comments=Traktor running on MBP Built-in Display when used as Main display. Dell U2518D is 2560x1440. Built-in Display is 1536x960.
 Incoming0=MID3<Incoming Action="MIDI"><Ports><Port>Bome MIDI Translator 1 Virtual In</Port></Ports><Simple Type="ControlChange"><Channel num="9"/><Value1 num="0x32"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Ports><Port>Bome MIDI Translator 1 Virtual In</Port></Ports><Simple Type="ControlChange"><Channel num="9"/><Value1 num="0x33"/><Value2 num="0x7F"/></Simple></Incoming>
+Incoming10=MID3<Incoming Action="MIDI"><Description>Click name field, Stream Deck does the rest</Description><Simple Type="ControlChange"><Channel num="9"/><Value1 num="0x58"/><Value2 num="0x7F"/></Simple></Incoming>
+Incoming11=MID3<Incoming Action="MIDI"><Description>Click name field, Stream Deck does the rest</Description><Simple Type="ControlChange"><Channel num="9"/><Value1 num="0x59"/><Value2 num="0x7F"/></Simple></Incoming>
+Incoming12=MID3<Incoming Action="MIDI"><Description>Click name field, Stream Deck does the rest</Description><Simple Type="ControlChange"><Channel num="9"/><Value1 num="0x5A"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming2=MID3<Incoming Action="MIDI"><Ports><Port>Bome MIDI Translator 1 Virtual In</Port></Ports><Simple Type="ControlChange"><Channel num="9"/><Value1 num="0x34"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming3=MID3<Incoming Action="MIDI"><Ports><Port>Bome MIDI Translator 1 Virtual In</Port></Ports><Simple Type="ControlChange"><Channel num="9"/><Value1 num="0x35"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming4=MID3<Incoming Action="MIDI"><Ports><Port>Bome MIDI Translator 1 Virtual In</Port></Ports><Simple Type="ControlChange"><Channel num="9"/><Value1 num="0x36"/><Value2 num="0x7F"/></Simple></Incoming>
@@ -64,6 +67,9 @@ Incoming9=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num=
 Name=Click Traktor - MBP MAIN
 Name0=Click Remix Deck C Row 1 Column 1
 Name1=Click Remix Deck C Row 1 Column 2
+Name10=Click Deck A Hot Cue Name
+Name11=Click Deck B Hot Cue Name
+Name12=Click Deck D Hot Cue Name
 Name2=Click Remix Deck C Row 1 Column 3
 Name3=Click Remix Deck C Row 1 Column 4
 Name4=Click Remix Deck C Row 2 Column 1
@@ -74,6 +80,9 @@ Name8=Click Remix Deck C BPM x2
 Name9=Click Remix Deck C BPM /2
 Options0=Actv01Stop00OutO00Dlay50:Millis
 Options1=Actv01Stop00OutO00Dlay50:Millis
+Options10=Actv01Stop00OutO01
+Options11=Actv01Stop00OutO01
+Options12=Actv01Stop00OutO01
 Options2=Actv01Stop00OutO00Dlay50:Millis
 Options3=Actv01Stop00OutO00Dlay50:Millis
 Options4=Actv01Stop00OutO00Dlay50:Millis
@@ -84,6 +93,9 @@ Options8=Actv01Stop00OutO00Dlay50:Millis
 Options9=Actv01Stop00OutO00Dlay50:Millis
 Outgoing0=Mse3<Outgoing Action="Mouse"><Type>Click</Type><Button num="0"/><X num="74"/><Y num="655"/></Outgoing>
 Outgoing1=Mse3<Outgoing Action="Mouse"><Type>Click</Type><Button num="0"/><X num="220"/><Y num="652"/></Outgoing>
+Outgoing10=Mse3<Outgoing Action="Mouse"><Type>Click</Type><Button num="0"/><X num="222"/><Y num="484"/></Outgoing>
+Outgoing11=Mse3<Outgoing Action="Mouse"><Type>Click</Type><Button num="0"/><X num="1109"/><Y num="486"/></Outgoing>
+Outgoing12=Mse3<Outgoing Action="Mouse"><Type>Click</Type><Button num="0"/><X num="1114"/><Y num="811"/></Outgoing>
 Outgoing2=Mse3<Outgoing Action="Mouse"><Type>Click</Type><Button num="0"/><X num="364"/><Y num="654"/></Outgoing>
 Outgoing3=Mse3<Outgoing Action="Mouse"><Type>Click</Type><Button num="0"/><X num="514"/><Y num="658"/></Outgoing>
 Outgoing4=Mse3<Outgoing Action="Mouse"><Type>Click</Type><Button num="0"/><X num="79"/><Y num="677"/></Outgoing>
@@ -95,6 +107,20 @@ Outgoing9=Mse3<Outgoing Action="Mouse"><Type>Click</Type><Button num="0"/><X num
 PresetSwitchIgnore=0
 
 [Preset.2]
+Active=1
+Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="9"/><Value1 num="0x5C"/><Value2 num="0x7F"/></Simple></Incoming>
+Incoming1=Tim0TimT000CDouble Click
+Name=Double Click
+Name0=MIDI to Double Click
+Name1=Timer to Double Click
+Options0=Actv01Stop00OutO00
+Options1=Actv01Stop00OutO00
+Outgoing0=Tim0TimS000CDouble Click2:10:10
+Outgoing1=Mse10200
+PresetSwitchIgnore=0
+
+[Preset.3]
 Active=1
 Comments=
 Incoming0=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="9"/><Value1 num="0x4C"/><Value2 num="0x7F"/></Simple></Incoming>
@@ -123,6 +149,6 @@ Version=2
 
 [Signatures]
 SigName-1=[Midi Translator Pro Internal]
-Signature-1=ASBfB4eFH7HlXhxLf6MJ/DZ3bIt5312xlGcRzS6y4fIEO9ioXw58rRvMsByqYwQzxPQhPx0805wwNfRttgaLa9tlTsgYMyXGMEdZkK6kazDPdUlAUIHVTdkBeANbFjHZly+0drHhAiwnz2RTHc/BnqBM70iPwB7O3+vtZrFe1Ns=
+Signature-1=XPsIBAvIsudvDKeh8XVl+m4jscUY3PS16VxrFDy4R27rNKbnCraeN/Fn8GVE6PobvT8yOS7SmKhIogb50jCKuxsa9h/BgbdC90V6/oDpkoxmXt4Ualufsp8pbITx4r/lMjSmoDIKVabT7zA/4gpv2IrRIx60p0JbslnjcR2xtac=
 SignedBy-1=Dan Smith
 
