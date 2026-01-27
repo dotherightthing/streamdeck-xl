@@ -2,6 +2,10 @@
 ; ------- You can modify this file as you like, but that will invalidate the
 ; ------- signature so that it cannot be opened in the BomeBox or MT Player anymore.
 ;
+[MIDI.routes]
+In0=Bome MIDI Translator 1 Virtual In
+Out0=Traktor Virtual Input
+
 [Preset.0]
 Active=0
 Comments=Traktor running on MBP Built-in Display when used as Extended display. Dell U2518D is 2560x1440. Built-in Display is 1536x960.
@@ -121,19 +125,20 @@ PresetSwitchIgnore=0
 [Preset.2]
 Active=1
 Comments=
-Incoming0=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="9"/><Value1 num="0x4C"/><Value2 num="0x7F"/></Simple></Incoming>
-Incoming1=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="9"/><Value1 num="0x4C"/><Value2 num="0x00"/></Simple></Incoming>
-Incoming2=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="9"/><Value1 num="0x4C"/><Value2 num="0x7F"/></Simple></Incoming>
-Incoming3=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="9"/><Value1 num="0x4C"/><Value2 num="0x00"/></Simple></Incoming>
+DefaultOutPorts=MIDA00010015Traktor Virtual Input
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="9"/><Value1 num="0x04"/><Value2 num="0x7F"/></Simple></Incoming>
+Incoming1=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="9"/><Value1 num="0x04"/><Value2 num="0x00"/></Simple></Incoming>
+Incoming2=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="9"/><Value1 num="0x04"/><Value2 num="0x7F"/></Simple></Incoming>
+Incoming3=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="9"/><Value1 num="0x04"/><Value2 num="0x00"/></Simple></Incoming>
 Name=Click Traktor - Toggle click offset mode
 Name0=CLICK OFFSET - MBP EXT
 Name1=CLICK OFFSET - MBP MAIN
 Name2=CLICK OFFSET - MBP EXT
 Name3=CLICK OFFSET - MBP MAIN
-Options0=Actv01Stop00OutO00StMa00000001label0006__cmt>
-Options1=Actv01Stop00OutO00StMa00000001label0006__cmt>
-Options2=Actv01Stop00OutO00StMa00000001label0006__cmt>
-Options3=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options0=Actv01Stop00OutO01StMa00000001label0006__cmt>
+Options1=Actv01Stop00OutO01StMa00000001label0006__cmt>
+Options2=Actv01Stop00OutO01StMa00000001label0006__cmt>
+Options3=Actv01Stop00OutO01StMa00000001label0006__cmt>
 Outgoing0=Pres040017Click Traktor - MBP EXT
 Outgoing1=Pres040018Click Traktor - MBP MAIN
 Outgoing2=Pres060018Click Traktor - MBP MAIN
@@ -161,6 +166,6 @@ Version=2
 
 [Signatures]
 SigName-1=[Midi Translator Pro Internal]
-Signature-1=Htwu1mTBDHjp5nm+7KZMiz7FDZAwo2d57JQspOGmf9616E2AgFKC/Px1fPNzlx3/qasICZrg2aBDIzpwAflruDRRQw2wsjoaFFV56AWpLTKVz8UENWxq3T392xmdwh24nP1FP+9H4iNDgwL8ERcku8ydrwfKSIaeZA3n/K2dY1g=
+Signature-1=bqH+qW+aynBKJ5HusvHROX552vcID/DlSniS14oAzx0oErL3vQeUKZvS9JmuJZVs3oe7zkg0HdIWqDwla2Qu+n05yA4uIy3bFmYsQlybxBGpKJXk4VAz9wBT4p7ccnsYocgSCs7ufj3UF6ctgGJ9UYNIGG1WNcdHab1FG5f1aT4=
 SignedBy-1=Dan Smith
 
