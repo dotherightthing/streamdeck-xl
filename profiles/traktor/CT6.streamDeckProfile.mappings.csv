@@ -187,7 +187,12 @@ D - Settings - Row 3 Col 3,Speaker,Loopback,5,Set audio output to S8 Loopback,-,
 D - Settings - Row 3 Col 4,Speaker,Kontrol S8,5,Set audio output to Traktor Kontrol S8,-,-,-,-,-,-,-,-,UNKNOWN - TODO,-
 D - Settings - Row 4 Col 2,Firefox,Browser,5,Open Firefox Developer Edition,-,-,-,-,-,-,-,-,src/streamdeck-xl/icons/button-creator/firefox.png,-
 D - Settings - Row 4 Col 3,Globe,Supreme MOD,6,Open Patreon page to manually check for updates,-,-,-,-,"-",-,-,-,UNKNOWN - TODO,"-"
-Mixer - Row 2 Col 2,Speaker Fill,"Dry,
+Mixer - Row 1 Col 2,LOOP RECORDER,,6,Label the controls in the rows below,,,,,,,,,,
+Mixer - Row 1 Col 3,DECK A,,6,Label the controls in the rows below,,,,,,,,,,
+Mixer - Row 1 Col 4,DECK B,,6,Label the controls in the rows below,,,,,,,,,,
+Mixer - Row 1 Col 5,DECK C,,6,Label the controls in the rows below,,,,,,,,,,
+Mixer - Row 1 Col 6,DECK D,,6,Label the controls in the rows below,,,,,,,,,,
+Mixer - Row 1 Col 2,Speaker Fill,"Dry,
 Wet",5,Toggle between 100% Dry (loop recorder recording not heard) and 100% Wet (only loop recorder recording heard),-,10,21,Cycle,Various (XML Cycle file),Traktor Virtual Input,Traktor Virtual Output,Calls Traktor's 'Dry/Wet Adjust',"src/streamdeck-xl/icons/button-creator/speaker.slash.fill.png,
 src/streamdeck-xl/icons/button-creator/speaker.fill.png","src/streamdeck-xl/plugins/streamdeck-midi-plugin/cycle-files/loop-recorder-dry-wet.xml,
 src/traktor/CT6 - Streamdeck XL.tsi"
