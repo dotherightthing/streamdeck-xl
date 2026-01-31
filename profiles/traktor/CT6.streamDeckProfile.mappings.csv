@@ -186,20 +186,22 @@ D - Settings - Row 3 Col 2,Music Keyboard,MIDI,6,"Access 'Audio MIDI Setup' whic
 D - Settings - Row 3 Col 3,Speaker,Loopback,5,Set audio output to S8 Loopback,-,-,-,-,-,-,-,-,UNKNOWN - TODO,src/loopback/Devices.plist
 D - Settings - Row 3 Col 4,Speaker,Kontrol S8,5,Set audio output to Traktor Kontrol S8,-,-,-,-,-,-,-,-,UNKNOWN - TODO,-
 D - Settings - Row 4 Col 2,Firefox,Browser,5,Open Firefox Developer Edition,-,-,-,-,-,-,-,-,src/streamdeck-xl/icons/button-creator/firefox.png,-
-D - Settings - Row 4 Col 3,Globe,Supreme MOD,6,Open Patreon page to manually check for updates,-,-,-,-,"-",-,-,-,UNKNOWN - TODO,"-"
-Mixer - Row 1 Col 2,LOOP RECORDER,,6,Label the controls in the rows below,,,,,,,,,,
-Mixer - Row 1 Col 3,DECK A,,6,Label the controls in the rows below,,,,,,,,,,
-Mixer - Row 1 Col 4,DECK B,,6,Label the controls in the rows below,,,,,,,,,,
-Mixer - Row 1 Col 5,DECK C,,6,Label the controls in the rows below,,,,,,,,,,
-Mixer - Row 1 Col 6,DECK D,,6,Label the controls in the rows below,,,,,,,,,,
-Mixer - Row 1 Col 2,Speaker Fill,"Dry,
+D - Settings - Row 4 Col 3,Globe,Supreme MOD,6,Open Patreon page to manually check for updates,-,-,-,-,-,-,-,-,UNKNOWN - TODO,-
+Mixer - Row 1 Col 2,V-Pot,"Loop Wet",6,Control amount of Dry/Wet balance of loop recorder,,,,,,,,,,
+Mixer - Row 1 Col 3,V-Pot,Pan A,6,Pan Deck A,,10,95,V-Pot,0-127,Traktor Virtual Input,Traktor Virtual Output,,-,
+Mixer - Row 1 Col 4,V-Pot,Pan B,6,Pan Deck B,,10,96,V-Pot,0-127,Traktor Virtual Input,Traktor Virtual Output,,-,
+Mixer - Row 1 Col 5,V-Pot,Pan C,6,Pan Deck C,,10,97,V-Pot,0-127,Traktor Virtual Input,Traktor Virtual Output,,-,
+Mixer - Row 1 Col 6,V-Pot,Pan D,6,Pan Deck D,,10,98,V-Pot,0-127,Traktor Virtual Input,Traktor Virtual Output,,-,
+Mixer - Row 2 Col 2,Speaker Fill,"Dry,
+Semi-Dry,
+Semi-Wet,
 Wet",5,Toggle between 100% Dry (loop recorder recording not heard) and 100% Wet (only loop recorder recording heard),-,10,21,Cycle,Various (XML Cycle file),Traktor Virtual Input,Traktor Virtual Output,Calls Traktor's 'Dry/Wet Adjust',"src/streamdeck-xl/icons/button-creator/speaker.slash.fill.png,
 src/streamdeck-xl/icons/button-creator/speaker.fill.png","src/streamdeck-xl/plugins/streamdeck-midi-plugin/cycle-files/loop-recorder-dry-wet.xml,
 src/traktor/CT6 - Streamdeck XL.tsi"
-Mixer - Row 2 Col 3,-,Pan,6,Pan Deck A,,10,95,V-Pot,0-127,Traktor Virtual Input,Traktor Virtual Output,,-,
-Mixer - Row 2 Col 4,-,Pan,6,Pan Deck B,,10,96,V-Pot,0-127,Traktor Virtual Input,Traktor Virtual Output,,-,
-Mixer - Row 2 Col 5,-,Pan,6,Pan Deck C,,10,97,V-Pot,0-127,Traktor Virtual Input,Traktor Virtual Output,,-,
-Mixer - Row 2 Col 6,-,Pan,6,Pan Deck D,,10,98,V-Pot,"0-127",Traktor Virtual Input,Traktor Virtual Output,,-,
+Mixer - Row 2 Col 3,RESET PAN,,6,Reset Deck Pan to center,,10,99,Push,"127 (On), 0 (Off)",Traktor Virtual Input,Traktor Virtual Output,,,
+Mixer - Row 2 Col 4,RESET PAN,,6,Reset Deck Pan to center,,,,,,,,,,
+Mixer - Row 2 Col 5,RESET PAN,,6,Reset Deck Pan to center,,,,,,,,,,
+Mixer - Row 2 Col 6,RESET PAN,,6,Reset Deck Pan to center,,,,,,,,,,
 Pinned - Row 1 Col 8,A,"Decks/Rec",5,Optimise layout for mixing,2,10,31,Push,"0 (On), 127 (Off)",Traktor Virtual Input,Traktor Virtual Output,Sets Traktor's 'Layout Selector' to configured 'Decks' view,src/streamdeck-xl/icons/button-creator/a.png,"src/traktor/CT6 - App Export.tsi,
 src/traktor/CT6 - Streamdeck XL.tsi"
 Pinned - Row 1 Col 8,A,Decks/Rec,5,Sync state of all buttons with Traktor,3,10,36,Push,"127 (On), 0 (Off)",Traktor Virtual Input,Traktor Virtual Output,Calls Traktor's 'Send Monitor State',src/streamdeck-xl/icons/button-creator/a.png,src/traktor/CT6 - Streamdeck XL.tsi
